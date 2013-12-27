@@ -1,3 +1,5 @@
+#import "DynamicLayer.h"
+
 @implementation DynamicLayer
 
 +(instancetype)with:(UIView *)view
