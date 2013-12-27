@@ -6,8 +6,8 @@ view hierarchy.
 
 Example :
 
-	'self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.mainView];
+	self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.mainView];
 	DynamicLayer *backgroundItem = [DynamicLayer with:self.aView];
     UISnapBehavior *snap = [[UISnapBehavior alloc] initWithItem:backgroundItem snapToPoint:self.background.center];
     backgroundItem.center = CGPointApplyAffineTransform(backgroundItem.center, CGAffineTransformMakeTranslation(0, -500));
-    [self.animator addBehavior:snap];'
+    [self.animator addBehavior:snap];
